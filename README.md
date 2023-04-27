@@ -22,8 +22,10 @@ The third fragment will have a static user profile.
 
 ## Usage 
 * Upon opening the app, you will see a list of  movies.
+* Clicking on the favorite button will add the card to the favorites list.
+* Clicking on the delete button will remove the card from the list.
 * Click on a movie to view its details, including a summary, rating, release date, and cast.
-
+* The second fragment will show only the favorite cards. Clicking on the delete and favorite button will remove the card from the favorites list.
 
 ## API Key
 the api provided by Reflexion.Ai
