@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/searchCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/lightBlue"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgPoster"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:minHeight="270dp"
+            android:background="@color/white"
+            android:contentDescription="@string/movieposter" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/image_button_style"
+            android:contentDescription="@string/favorite_button"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_favorite_border_24" />
+
+        <ImageButton
+            android:id="@+id/imgButtonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imgPoster"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:visibility="gone"
+            android:background="@drawable/image_button_style"
+            android:contentDescription="@string/favorite_button"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:src="@drawable/baseline_delete_24" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_toEndOf="@id/imgPoster"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtMoviName"
+                style="@style/textStyle_18sp_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/txtRating"
+                style="@style/textStyle_18sp_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1" />
+
+            <TextView
+                android:id="@+id/txtRunTime"
+                style="@style/textStyle_16sp_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="@string/app_name" />
+            <TextView
+                android:id="@+id/txtCastCard"
+                style="@style/textStyle_16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/txtMoviDiscription"
+                style="@style/textStyle_16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:text="@string/app_name" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

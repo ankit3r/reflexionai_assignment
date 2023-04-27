@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ReflexionAi_Assignment</string>
+    <string name="style1">style!</string>
+    <string name="tab">this is tab</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Movie</string>
+    <string name="movie">Favorite</string>
+    <string name="profile">profile</string>
+    <string name="move_title">%1$s (%2$s)</string>
+    <string name="cast">Cast: %1$s</string>
+    <string name="movieposter">MoviePoster</string>
+    <string name="favorite_button">favorite</string>
+    <string name="rating">Rating: ⭐ %s /10  </string>
+    <string name="user_name">UserName</string>
+    <string name="total_data_room">Total Movie in Room: %d</string>
+    <string name="total_favorite">Favorite Movies: %d</string>
+    <string name="thank_you">Thank you!!</string>
+    <string name="total_api_data">Total Movie In Api: %d</string>
+    <string name="writer">Writer: %s</string>
+    <string name="summery">Summery: %s</string>
+    <string name="genres">Genres: %s</string>
+</resources>
